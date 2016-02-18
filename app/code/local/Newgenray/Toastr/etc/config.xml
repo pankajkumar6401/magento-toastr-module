@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Newgenray_Toastr>
+            <version>0.0.1</version>
+        </Newgenray_Toastr>
+    </modules>
+    <global>
+        <helpers>
+            <newgenray_toastr>
+                <class>Newgenray_Toastr_Helper</class>
+            </newgenray_toastr>
+        </helpers>
+        <blocks>
+            <core>
+                <rewrite>
+                    <messages>Newgenray_Toastr_Block_Messages</messages>
+                </rewrite>
+            </core>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <newgenray_toastr>
+                    <file>newgenray/toastr.xml</file>
+                </newgenray_toastr>
+            </updates>
+        </layout>
+    </frontend>
+</config>

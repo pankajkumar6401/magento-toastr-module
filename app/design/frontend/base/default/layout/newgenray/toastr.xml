@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addJS" ifconfig="newgenray_toastr/general/include_jquery"><script>newgenray/jquery-1.12.0.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><name>js/toastr.min.js</name></action>
+            <action method="addItem"><type>skin_css</type><name>css/newgenray/toastr.min.css</name></action>
+        </reference>
+    </default>
+</layout>

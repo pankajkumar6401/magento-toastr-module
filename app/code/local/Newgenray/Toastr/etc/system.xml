@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <newgenray_toastr translate="label" module="newgenray_toastr">
+            <label>Newgenray</label>
+            <sort_order>151</sort_order>
+        </newgenray_toastr>
+    </tabs>
+    <sections>
+        <newgenray_toastr translate="label" module="newgenray_toastr">
+            <label>Toastr Config</label>
+            <tab>newgenray_toastr</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>999</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label" module="newgenray_customer">
+                    <label>General Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>0</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <include_jquery translate="label">
+                            <label>Include Jquery</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>0</sort_order>
+                            <comment>If you don't have jquery then you have to include it. </comment>
+                            <show_in_default>2</show_in_default>
+                            <show_in_website>2</show_in_website>
+                            <show_in_store>2</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </include_jquery>
+
+                    </fields>
+                </general>
+            </groups>
+        </newgenray_toastr>
+    </sections>
+</config>
